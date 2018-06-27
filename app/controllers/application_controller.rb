@@ -1,8 +1,11 @@
-class ApplicationController < Sinatra::Base
+require 'bundler'
+Bundler.require
+require_relative 'models/questions'
 
-  configure do
-    set :public_folder, 'public'
-    set :views, 'app/views'
-  end
+class MyApp < Sinatra::Base
 
-end
+ get'/' do
+  erb :index
+ end
+ 
+ end

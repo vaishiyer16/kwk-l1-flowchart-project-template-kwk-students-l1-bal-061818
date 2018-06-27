@@ -21,3 +21,10 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
 end
+# A sample Gemfile
+# source "https://rubygems.org"
+#
+# gem 'shotgun'
+# gem 'pry'
+# gem 'sinatra'
+# # gem 'heroku'

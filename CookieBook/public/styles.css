@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+body {
+   background-image: url("https://images5.alphacoders.com/320/320285.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+h1 {
+   font-size: 500%;
+   text-align: center;
+   color: white;
+   font-family: "Racing Sans One", cursive;
+   top: 150%;
+   text-shadow: gray 6px 5px;
+}
+#b1 {
+  margin-left: 250px;
+}
