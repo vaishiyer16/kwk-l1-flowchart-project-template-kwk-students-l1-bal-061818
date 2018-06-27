@@ -7,9 +7,10 @@ class MyApp < Sinatra::Base
  get'/' do
   erb :index
  end
+ end
 
  # get '/questions' do
  #   erb :questions
  # end
  #
- # 
+ #
